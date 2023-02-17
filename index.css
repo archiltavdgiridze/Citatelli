@@ -33,7 +33,6 @@ select {
   padding: 0 5px;
   font-size: 1rem;
   font-family: "firago", sans-serif;
-  /* border-top-left-radius: 10px; */
   border-top-right-radius: 10px;
 }
 
@@ -68,8 +67,6 @@ select option {}
 .main-content {
   display: flex;
   justify-content: space-around;
-  /* background-color: red; */
-  /* width: 100%; */
   height: 90vh;
 }
 
@@ -171,9 +168,8 @@ select option {}
   border-radius: 10px;
   border: none;
   background-color: var(--zimaBlue);
-  filter: drop-shadow(0 0 0.4rem var(--zimaBlue)); );
+  filter: drop-shadow(0 0 0.4rem var(--zimaBlue));
 }
-
 /* filter */
 
 /* ~ result */
@@ -210,7 +206,6 @@ select option {}
   height: auto;
   min-height: 10vh;
   border-radius: 15px;
-
 }
 
 /* quote */
@@ -232,7 +227,6 @@ select option {}
 .author p {
   padding: 0 20px;
 }
-
 /* author */
 
 /* result */
