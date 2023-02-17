@@ -1,24 +1,33 @@
 @font-face {
-  font-family: "Firago";
-  src: url();
+  font-family: "Firago Regular";
+  src: url(./assets/fonts/FiraGO-Regular.ttf);
 }
 
-:root {}
+:root {
+  --white: #fff;
+  --lightGray: #F1F0F0;
+  --darkGray: #D9D9D9;
+}
 
 body {
   margin: 0;
   padding: 0;
+  font-family: "firago", sans-serif;
+}
+
+hr {
+  width: 90%;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  background-color: #16b8f3;
+  height: 10vh;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-}
+.nav {}
 
 .nav ul li {
   display: inline-block;
@@ -34,3 +43,85 @@ body {
   text-decoration: none;
   color: #1100ff;
 }
+
+/* ~ main */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+  /* width: 100%; */
+  height: 90vh;
+}
+
+/* ~ filter */
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--lightGray);
+  width: 35%;
+  height: 90vh;
+}
+
+/* filter */
+
+/* ~ result */
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  background-color: var(--darkGray);
+  width: 65%;
+  height: 90vh;
+  align-items: center;
+}
+
+.result_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 90%;
+  height: 90vh;
+  gap: 20px;
+  padding: 40px;
+  align-items: flex-end;
+}
+
+/* ~ quote */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white);
+  width: 100%;
+  height: auto;
+  min-height: 10vh;
+  border-radius: 15px;
+
+}
+
+/* quote */
+
+/* ~ author */
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white);
+  width: auto;
+  min-width: 30%;
+  height: 10%;
+  border-radius: 15px;
+}
+
+.quote p, .author p {
+  padding: 0 20px;
+}
+
+/* author */
+
+/* result */
+/* main */

@@ -24,6 +24,87 @@
       </div>
       <div class="main">
         <div class="main-content">
-          
+          <div class="filter">
+            <div class="filter_title">
+              <h1>ფილტრი</h1>
+            </div>
+            <div class="choose_topic">
+              <h2>თემა</h2>
+              <select id="cars" name="cars">
+                <option value="choose">აირჩიე თემა</option>
+                <option value="friendship">მეგობრობა</option>
+                <option value="love">სიყვარული</option>
+                <option value="life">ცხოვრებისეული</option>
+                <option value="evil">ბოროტება</option>
+              </select>
+            </div>
+            <hr />
+            <div class="choose_author">
+              <h2>ავტორი</h2>
+              <select id="cars" name="cars">
+                <option value="">აირჩიე ავტორი</option>
+                <option value="">შოთა რუსთაველი</option>
+                <option value="">აკაკი წერეთელი</option>
+                <option value="">ილია ჭავჭავაძე</option>
+                <option value="">ნიკოლოზ ბარათაშვილი</option>
+              </select>
+            </div>
+            <hr />
+            <div class="word_count">
+              <h2>სიტყვების რაოდენობა</h2>
+              <p>2 - 25</p>
+              <div class="slidecontainer">
+                <input
+                  type="range"
+                  min="2"
+                  max="25"
+                  value="1"
+                  class="slider"
+                  id="myRange"
+                />
+              </div>
+              <p>Number of characters: <span id="slider_num"></span></p>
+            </div>
+            <div class="generate">
+              <button class="generate_quote_btn">გენერაცია</button>
+            </div>
+          </div>
+          <div class="result">
+            <div class="result_wrapper">
+              <div class="quote">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis quia blanditiis magni deserunt nostrum aspernatur a
+                  dolorem autem quibusdam nam quaerat ullam similique distinctio
+                  quae possimus, deleniti ipsam molestias assumenda laboriosam
+                  dolore adipisci rerum vel, non numquam? Id nobis at veniam,
+                  dolore voluptate repellendus totam quo laboriosam blanditiis
+                  quam! Quaerat voluptas delectus voluptatem quidem officia
+                  dolores iure dolor odit inventore, commodi aperiam dolorem
+                  fuga ad numquam eligendi mollitia libero vitae quam iusto.
+                  Sunt cumque quis vero omnis numquam laudantium, fugiat at quia
+                  exercitationem id tenetur maiores assumenda nihil quasi
+                  nesciunt eum commodi, placeat ratione quos! Iure aliquam animi
+                  facilis ipsum quidem cumque vel excepturi quasi, enim
+                  accusamus repellendus. Aliquam molestiae pariatur velit cumque
+                  cum! Sit corrupti veritatis quam, deleniti quae nostrum iste
+                  consequuntur cum incidunt molestias voluptate exercitationem
+                  in libero hic iusto sunt ab pariatur placeat quaerat
+                  consequatur repellat quod optio eaque. Et itaque dignissimos
+                  sint odit sit mollitia aperiam a accusamus. Hic minus debitis
+                  dolorum, aspernatur inventore optio maiores numquam, facere
+                  dicta fugit a neque vero aperiam dignissimos! Quasi voluptas
+                  magni reprehenderit ab, vel et debitis natus quae accusantium.
+                </p>
+              </div>
+              <div class="author">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, mollitia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
