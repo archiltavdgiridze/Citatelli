@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Firago";
+  src: url();
+}
+
+:root {}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav ul li a:hover {
+  text-decoration: none;
+  color: #1100ff;
+}
