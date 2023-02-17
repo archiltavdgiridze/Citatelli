@@ -7,6 +7,7 @@
   --white: #fff;
   --lightGray: #F1F0F0;
   --darkGray: #D9D9D9;
+  --zimaBlue: #16b8f3;
 }
 
 body {
@@ -15,9 +16,28 @@ body {
   font-family: "firago", sans-serif;
 }
 
-hr {
-  width: 90%;
+h1,
+h2 {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em
 }
+
+hr {
+  width: 85%;
+}
+
+select {
+  width: 70%;
+  height: 40px;
+  border: none;
+  padding: 0 5px;
+  font-size: 1rem;
+  font-family: "firago", sans-serif;
+  /* border-top-left-radius: 10px; */
+  border-top-right-radius: 10px;
+}
+
+select option {}
 
 .header {
   display: flex;
@@ -61,6 +81,97 @@ hr {
   background-color: var(--lightGray);
   width: 35%;
   height: 90vh;
+}
+
+.filter_title {
+  padding: 0 0 0 40px;
+}
+
+.choose_topic {
+  padding: 0 0 0 40px;
+}
+
+.choose_author {
+  padding: 0 0 0 40px;
+}
+
+.word_count {
+  padding: 0 0 0 40px;
+}
+
+.word_count_text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* ~ slider */
+.slider-wrapper p {
+  font-family: var(--mainFont);
+  font-size: 1.2rem;
+}
+
+.slider-wrapper p span {
+  color: ;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80%;
+  border-radius: 100px;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+/* The slider handle */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: var(--zimaBlue);
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: red;
+  cursor: pointer;
+}
+
+/* slider */
+.generate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 0 0 0 20px; */
+}
+
+.generate_quote_btn {
+  width: 60%;
+  height: auto;
+  padding: 15px 20px;
+  font-family: 'firago', sans-serif;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--zimaBlue);
+  filter: drop-shadow(0 0 0.4rem var(--zimaBlue)); );
 }
 
 /* filter */
@@ -117,7 +228,8 @@ hr {
   border-radius: 15px;
 }
 
-.quote p, .author p {
+.quote p,
+.author p {
   padding: 0 20px;
 }
 
