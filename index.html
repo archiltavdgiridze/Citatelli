@@ -4,103 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/citatelli_icon.ico" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="./assets/citatelli_logo.ico" />
     <link rel="stylesheet" href="./index.css" />
     <title>ციტატელი · Citatelli</title>
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <div class="title">
-          <h1>Citatelli · ციტატელი</h1>
-        </div>
-        <div class="nav">
-          <ul>
-            <li><a href="#">ციტატები</a></li>
-            <li><a href="#">ანდაზები</a></li>
-            <li><a href="#">კონტაქტი</a></li>
-          </ul>
-        </div>
-      </div>
       <div class="main">
         <div class="main-content">
-          <div class="filter">
-            <div class="filter_title">
-              <h1>გაფილტრე ციტატები</h1>
+          <div class="sidebar">
+            <div class="sidebar_title">
+              <h1>ციტატელი</h1>
             </div>
-            <div class="choose_topic">
-              <h2>თემა</h2>
-              <select id="cars" name="cars">
-                <option value="choose">აირჩიე თემა</option>
-                <option value="friendship">მეგობრობა</option>
-                <option value="love">სიყვარული</option>
-                <option value="life">ცხოვრებისეული</option>
-                <option value="evil">ბოროტება</option>
-              </select>
-            </div>
-            <hr />
-            <div class="choose_author">
-              <h2>ავტორი</h2>
-              <select id="cars" name="cars">
-                <option value="">აირჩიე ავტორი</option>
-                <option value="">შოთა რუსთაველი</option>
-                <option value="">აკაკი წერეთელი</option>
-                <option value="">ილია ჭავჭავაძე</option>
-                <option value="">ნიკოლოზ ბარათაშვილი</option>
-              </select>
-            </div>
-            <hr />
-            <div class="word_count">
-              <div class="word_count_text">
-                <h2>სიტყვების რაოდენობა | <span id="slider_num"></span></h2>
-              </div>
-              <div class="slidecontainer">
-                <input
-                  type="range"
-                  min="2"
-                  max="25"
-                  value="1"
-                  class="slider"
-                  id="myRange"
-                />
-              </div>
-            </div>
-            <div class="generate">
-              <button class="generate_quote_btn">გენერაცია</button>
+            <div class="sidebar_content">
+              <ul>
+                <li>
+                  <a href="">
+                    <span class="material-symbols-outlined"> home </span>
+                    მთავარი
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span class="material-symbols-outlined"> tune </span> 
+                    ფილტრი
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span class="material-symbols-outlined">
+                      emoji_people
+                    </span> 
+                    ჩვენს შესახებ
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+
+                    <span class="material-symbols-outlined"> call </span> 
+                    კონტაქტი
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="result">
             <div class="result_wrapper">
               <div class="quote">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Debitis quia blanditiis magni deserunt nostrum aspernatur a
-                  dolorem autem quibusdam nam quaerat ullam similique distinctio
-                  quae possimus, deleniti ipsam molestias assumenda laboriosam
-                  dolore adipisci rerum vel, non numquam? Id nobis at veniam,
-                  dolore voluptate repellendus totam quo laboriosam blanditiis
-                  quam! Quaerat voluptas delectus voluptatem quidem officia
-                  dolores iure dolor odit inventore, commodi aperiam dolorem
-                  fuga ad numquam eligendi mollitia libero vitae quam iusto.
-                  Sunt cumque quis vero omnis numquam laudantium, fugiat at quia
-                  exercitationem id tenetur maiores assumenda nihil quasi
-                  nesciunt eum commodi, placeat ratione quos! Iure aliquam animi
-                  facilis ipsum quidem cumque vel excepturi quasi, enim
-                  accusamus repellendus. Aliquam molestiae pariatur velit cumque
-                  cum! Sit corrupti veritatis quam, deleniti quae nostrum iste
-                  consequuntur cum incidunt molestias voluptate exercitationem
-                  in libero hic iusto sunt ab pariatur placeat quaerat
-                  consequatur repellat quod optio eaque. Et itaque dignissimos
-                  sint odit sit mollitia aperiam a accusamus. Hic minus debitis
-                  dolorum, aspernatur inventore optio maiores numquam, facere
-                  dicta fugit a neque vero aperiam dignissimos! Quasi voluptas
-                  magni reprehenderit ab, vel et debitis natus quae accusantium.
+                  არაფერი არასდროს ისე სამარცხვინოდ და თავისმომჭრელად არ ითვლებოდა საქართველოში, როგორც უპატიოსნება და ქურდობა. მარტო ის რად ღირს, რომ ქურდს მეგრულად მახინჯი ჰქვია და ეს მახინჯი საქართველოში ერთიც რომ იყოს, მაინც უნდა გადაშენდეს, რამეთუ ქართული ანდაზა ღაღადებს: „ას მშენებელს ერთი მნგრეველი აუთავდებაო“. რომ ქურდს მეგრულად მახინჯი ჰქვია და ეს მახინჯი საქართველოში ერთიც რომ იყოს, მაინც უნდა გადაშენდეს, რამეთუ ქართული ანდაზა ღაღადებს: „ას მშენებელს ერთი მნგრეველი აუთავდებაო“. რომ ქურდს მეგრულად მახინჯი ჰქვია და ეს მახინჯი საქართველოში ერთიც რომ იყოს, მაინც უნდა გადაშენდეს, რამეთუ ქართული ანდაზა ღაღადებს: „ას მშენებელს ერთი მნგრეველი აუთავდებაო“.
                 </p>
               </div>
               <div class="author">
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Autem, mollitia.
+                  ნოდარ დუმბაძე
                 </p>
               </div>
             </div>
