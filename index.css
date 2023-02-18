@@ -3,11 +3,11 @@
   src: url(./assets/fonts/FiraGO-Regular.ttf);
 
   font-family: "GA Gakruli";
-  src: url(./assets/fonts/GAGakruli-Regular.ttf);
-  
+  src: url(./assets/fonts/GAGakruli-Regular.ttf) format("truetype");
+
   font-family: "GA Rayuela";
   src: url(./assets/fonts/GARayuela-Regular.otf);
-  
+
   font-family: "GA Rayuela Bold";
   src: url(./assets/fonts/GARayuela-Bold.otf);
 
