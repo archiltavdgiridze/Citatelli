@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="icon" href="./assets/citatelli_logo.ico" />
     <link rel="stylesheet" href="./index.css" />
     <title>ციტატელი · Citatelli</title>
@@ -26,35 +27,33 @@
               <ul>
                 <li>
                   <a href="index.html">
-                    <span class="material-symbols-outlined"> home </span>
+                    <i data-feather="home"></i>
                     მთავარი
                   </a>
                 </li>
                 <li>
                   <a href="">
-                    <span class="material-symbols-outlined"> tune </span>
+                    <i data-feather="filter"></i>
                     ფილტრი
                   </a>
                 </li>
                 <li>
                   <a href="about_us.html">
-                    <span class="material-symbols-outlined">
-                      emoji_people
-                    </span>
+                    <i data-feather="users"></i>
                     ჩვენს შესახებ
                   </a>
                 </li>
                 <li>
-                  <a href="">
-                    <span class="material-symbols-outlined"> call </span>
+                  <a href="contact.html">
+                    <i data-feather="phone"></i>
                     კონტაქტი
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="result">
-            <div class="result_wrapper">
+          <div class="result rightDiv">
+            <div class="result_wrapper rightDivWrapper">
               <div class="quote">
                 <p>
                   არაფერი არასდროს ისე სამარცხვინოდ და თავისმომჭრელად არ
@@ -81,6 +80,7 @@
         </div>
       </div>
     </div>
+    <script>feather.replace()</script>
     <script src="./index.js"></script>
   </body>
 </html>
